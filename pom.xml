@@ -25,6 +25,12 @@
     </properties>
     <dependencies>
         <dependency>
+                 
+                 mvn install:install-file "-Dfile=yourJarFile.jar" "-DgroupId=yourGroupID" "-DartifactId=yourArtifactId" "-Dversion=1.0" "-Dpackaging=jar"
+
+                 
+                 
+                 
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
             <version>${groovy.version}</version>
